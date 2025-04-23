@@ -4,10 +4,10 @@
 Prendere una logica API fornita e renderla funzionante su **Vercel** o **Netlify** a tua scelta.
 
 ## Struttura
-- `frontend/` → Una singola pagina React
-- `api-logic/` → Contiene la logica da usare per tutte le operazioni API
-- `netlify-api/` → Cartella dove creare `item.ts` con `if` per metodo
-- `vercel-api/` → Cartella dove creare `GET.ts`, `POST.ts`, ecc.
+- `app/page.tsx` → Una singola pagina React
+- `api-logic/api.ts` → Contiene la logica da usare per tutte le operazioni API
+- `api-logic/netlify_base.ts` → file dove creare la struttura per netlify
+- `api-logic/vercel_base.ts` → file dove creare la struttura per vercel.
 
 ## Cosa fare
 1. Scegli **Vercel** oppure **Netlify**
